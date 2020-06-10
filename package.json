@@ -1,0 +1,38 @@
+{
+  "name": "prodigyltd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index",
+  "private": true,
+  "scripts": {
+    "start": "factor serve",
+    "dev": "factor dev",
+    "build": "factor build"
+  },
+  "dependencies": {
+    "@factor/core": "^1.0.0",
+    "@factor/plugin-notify": "^1.0.0",
+    "@factor/plugin-seo": "^1.0.0",
+    "@factor/plugin-sitemap": "^1.0.0",
+    "@factor/plugin-contact-form": "^1.0.0",
+    "@factor/plugin-storage-s3": "^1.0.0",
+    "@factor/theme-zeno": "^1.8.14"
+  },
+  "factor": {
+    "app": {
+      "name": "The Prodigy Logistic Ltd.",
+      "description": "The Prodigy Logistics Limited is an independent enterprise situated in Lagos. We have been in the business for the past 3 years and have always given our clients a happy service",
+      "url": "https://test.com",
+      "email": "addymailtest@gmail.com"
+    },
+    "admins": [
+      "demo@demo.com",
+      "demo@demo.com",
+      "demo@demo.com"
+    ],
+    "load": [
+      "app",
+      "server"
+    ]
+  }
+}
