@@ -22,13 +22,10 @@
     "app": {
       "name": "The Prodigy Logistic Ltd.",
       "description": "The Prodigy Logistics Limited is an independent enterprise situated in Lagos. We have been in the business for the past 3 years and have always given our clients a happy service",
-      "url": "https://test.com",
       "email": "addymailtest@gmail.com"
     },
     "admins": [
       "demo@demo.com",
-      "demo@demo.com",
-      "demo@demo.com"
     ],
     "load": [
       "app",

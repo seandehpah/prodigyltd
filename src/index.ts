@@ -31,10 +31,10 @@ addRoutes({
       component: (): Promise<any> => import("./v-contact.vue"),
       meta: { nav: true },
     },
-    {
-      path: "/pricing",
-      component: (): Promise<any> => import("./v-pricing.vue"),
-      meta: { nav: true },
-    },
+    // {
+    //   path: "/pricing",
+    //   component: (): Promise<any> => import("./v-pricing.vue"),
+    //   meta: { nav: true },
+    // },
   ],
 })

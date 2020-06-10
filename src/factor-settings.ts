@@ -94,14 +94,14 @@ export default {
         'The Prodigy Logistics Limited is an independent enterprise situated in Lagos. We have been in the business for the past 3 years and have always given our clients a happy service.',
       buttons: [
         {
-          _item: 'contact',
+          _item: 'call_us',
           link: 'tel:+2347051997737',
           text: 'Call Us',
           classes: 'btn mr-4 text-blue-100 bg-blue-500 hover:bg-blue-600',
         },
         {
-          _item: 'pricing',
-          link: 'mailto:test@test.com',
+          _item: "email_us",
+          link: 'mailto:theprodigylogistics@gmail.com',
           text: 'Email Us',
           classes:
             'btn btn-ol border-blue-700 ml-0 mt-4 md:mt-0 hover:text-blue-500 hover:border-blue-500',
